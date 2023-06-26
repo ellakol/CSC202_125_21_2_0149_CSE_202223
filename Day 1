@@ -1,0 +1,43 @@
+
+print("Hello world!")
+print("Day 1 - Phyton Print Function")
+print("The function declared is like this :")
+print("print('what to print')")
+print("hello world\nhello world")
+print("hello "+ "Daniella")
+#Fix the code below 👇
+
+print("Day1 - String Manipulation")
+print('e.g. print("Hello "+ "World")')
+print('String Concatenation is done with the "+" sign.') 
+print("New lines can be created with a backslash and n.")
+print("Hello " + input("What is your name ?"))
+#Write your code below this line 👇
+print(len(input("what is your name ? " )))
+name = input("What is your name? ")
+print(name)
+name = "Daniella"
+print(name)
+name = input("What is your name ?")
+length = len(name)
+print(length)
+# 🚨 Don't change the code below 👇
+a = input("a: ")
+b = input("b: ")
+# 🚨 Don't change the code above 👆
+####################################
+#Write your code below this line 👇
+c = a
+a = b
+b = c
+#Write your code above this line 👆
+####################################
+# 🚨 Don't change the code below 👇
+print("a: " + a)
+print("b: " + b)
+print("Welcome to the Band Name Generator")
+print("Which city did you grow up in ?")
+city = input()
+print("What is the name of your pet?")
+pet = input()
+print(" Your band name could be "+ city + " " + pet)
