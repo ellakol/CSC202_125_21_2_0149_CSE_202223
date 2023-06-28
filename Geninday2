@@ -1,0 +1,75 @@
+# sbuscripting 
+print("hello"[4])
+#integer
+print(123 + 345)
+123_345_678
+#float
+3.1415
+#boolean
+True or false
+# data conversion and type data
+num_char =len(input("What is your name"))
+print(type(num_char))
+new_num_char = str(num_char)
+print("your name has " + new_num_char + " characters")
+a =str(123)
+print(type(a))
+print(70+float(100.5))
+print(str(70)+ str(100))
+# 🚨 Don't change the code below 👇
+two_digit_number = input("Type a two digit number: ")
+# 🚨 Don't change the code above 👆
+####################################
+#Write your code below this line 👇
+hip =int(two_digit_number)
+print(type(two_digit_number))
+print(str([0] + [1]))
+first_digit = two_digit_number[0]
+second_digit = two_digit_number[1]
+print(first_digit + second_digit)
+result =int(first_digit) +int(second_digit)
+print(result)
+print(3*3+3/3-3)
+# 🚨 Don't change the code below 👇
+height = input("enter your height in m: ")
+weight = input("enter your weight in kg: ")
+# 🚨 Don't change the code above 👆
+#Write your code below this line 👇
+print(height)
+print(weight)
+print(type(height))
+print(type(weight))
+BMI=int(weight) / float(height)**2
+print(BMI)
+BMI_as_int= int(BMI)
+print(BMI_as_int)
+print(int(8/3))
+print(round(8/3,3))
+print(8//3)
+score= 3
+score +=2
+print(score)
+iswinnig = True 
+#f-SyntaxWarning
+print(f"Your score is{score}, your height is {height},you are winning is{iswinnig}")
+# 🚨 Don't change the code below 👇
+age = input("What is your current age?")
+# 🚨 Don't change the code above 👆
+#Write your code below this line 👇
+print(age)
+age_int= int(age)
+years_left= 90 - age_int
+days_left= years_left*365
+weeks_left= years_left*52
+months_left= years_left*12
+message = f'you have {days_left} days, {weeks_left} weeks, and {months_left} months left'
+print(message)
+print("welcome to the Tip Calculator")
+bill =float(input("What was the total bill ? £"))
+percentage =int(input("What percentage will the tip be ? 10, 12, or 15 ? "))
+split =int(input("How many people to split the bill ? "))
+tipped_bill = percentage /100 *bill + bill
+print(tipped_bill)
+split_bill = tipped_bill /split 
+t_amount=round(split_bill,2)
+print(f"Each person should pay £{t_amount}")
